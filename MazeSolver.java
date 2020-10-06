@@ -6,22 +6,7 @@ import java.util.*;
 import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.SAXException;
 
-/*
- * Author: Ainur Ainabekova, TA
- * 
- * This is a solution of the programming assignment 5 for CS-540 Summer 2020. 
- * This program solves maze using BFS and A* Search algorithms. 
- *  
- * When parsing SVG file this program assumes that the start of the maze is at the top 
- * and finish is at the bottom. 
- * 
- */
 
-/*
-	TODO: Implement DFS Algorithm 
-	TODO: Implement method for printing the maze and maze with solution in the required format
-	TODO: Implement A* Search with Euclidean distance (current version is using Manhattan distance)
- */
 
 public class MazeSolver {
 
