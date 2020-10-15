@@ -10,8 +10,6 @@ import org.xml.sax.SAXException;
 
 public class MazeSolver {
 
-	// make sure to change these values based on the maze dimensions 
-	// and modify svg file path
 	private static final int WIDTH = 57;
 	private static final int HEIGHT = 58;
 	private static final String SVGFILEPATH = "src/57 by 58 orthogonal maze.svg";
@@ -192,9 +190,7 @@ public class MazeSolver {
 //				double f = g + Math.sqrt(Math.pow((adjacentCell.xCoord-finish.xCoord), 2) + 
 //						Math.pow((adjacentCell.yCoord-finish.yCoord), 2));
 
-				// if this cell was already expanded then do not add to the queue;
-				// for our maze examples we do not need to worry about cases when there are 
-				// multiple paths to the same cell and we could have several f costs for same cell (no loops)
+				
 				if (visited.contains(adjacentCell)){
 					continue;
 				} else { 
